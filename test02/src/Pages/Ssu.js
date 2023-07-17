@@ -4,9 +4,9 @@ import '../App.css';
 function Ssu() {
   return (
     <>
-    <header className="App-header">
+    <div className="App-header">
     <h1>Welcome to SSU</h1>
-    </header>
+    </div>
     </>
   )
 }

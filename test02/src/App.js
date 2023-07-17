@@ -15,8 +15,8 @@ function App() {
       <Router>   
               
              
-             <Link href="#" to="/">SSU</Link>
-        <Link to="/abca">ABCA</Link>       
+      <button variant="outlined"><Link href="#" to="/">SSU</Link></button>
+      <button variant="outlined"><Link to="/abca">ABCA</Link>    </button>   
         <Routes>
           <Route path="/" element={<Ssu />}/>
           <Route path="/abca" element={<Abca />}/>
