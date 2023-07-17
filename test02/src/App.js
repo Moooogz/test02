@@ -7,7 +7,7 @@ import Abca from './Pages/Abca';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+     
       <Router>              
      
         <Link to="/">SSU</Link>
@@ -17,8 +17,7 @@ function App() {
           <Route path="/abca" element={<Abca />}/>
         </Routes>
       </Router>
-    
-      </header>
+      
     </div>
   );
 }
