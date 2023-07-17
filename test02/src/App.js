@@ -1,11 +1,23 @@
 
 import './App.css';
+import {BrowserRouter as Router, Routes,Route,Link} from 'react-router-dom'
+import Ssu from './Pages/Ssu';
+import Abca from './Pages/Abca';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-     <h1> Welcome SSU Members!</h1> -mooogzzzz
+      <Router>              
+     
+        <Link to="/">SSU</Link>
+        <Link to="/abca">ABCA</Link>       
+        <Routes>
+          <Route path="/" element={<Ssu />}/>
+          <Route path="/abca" element={<Abca />}/>
+        </Routes>
+      </Router>
+    
       </header>
     </div>
   );
