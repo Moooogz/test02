@@ -4,9 +4,9 @@ import '../App.css';
 function Abca() {
   return (
     <>
-    <header className="App-header2">
+    <div>
     <h1>Welcome to ABCA</h1>
-    </header>
+    </div>
     </>
   )
 }

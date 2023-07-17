@@ -4,7 +4,7 @@ import '../App.css';
 function Ssu() {
   return (
     <>
-    <div className="App-header">
+    <div>
     <h1>Welcome to SSU</h1>
     </div>
     </>
