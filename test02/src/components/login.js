@@ -28,7 +28,7 @@ const Login = () => {
           <TextField id="filled-basic" label="Enter password" variant="filled" fullWidth  type="password"/>
           </Grid>
           <Grid margin={"20px auto"}>
-          <Button variant="contained" fullWidth>LOG IN</Button>
+          <Button variant="contained" fullWidth>LOG IN NOW</Button>
           </Grid>
         </Grid>
       </Paper>
