@@ -29,6 +29,7 @@ const Login = () => {
           </Grid>
           <Grid margin={"20px auto"}>
           <Button variant="contained" fullWidth>LOG IN NOW</Button>
+          <label fullwidth>Forgot password ?</label>
           </Grid>
         </Grid>
       </Paper>
